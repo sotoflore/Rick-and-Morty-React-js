@@ -20,7 +20,7 @@ export default function Characters(props) {
                     <div>
                         <h3>{character.name}</h3>
                         <h6>
-                            {character.status == "Alive" ? (
+                            {character.status === "Alive" ? (
                                 <>
                                 < span className="alive" /> Alive
                                 </>
